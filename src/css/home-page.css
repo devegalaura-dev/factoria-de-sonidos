@@ -1,7 +1,12 @@
 *{
   padding: 0;
   margin: 0;
+  
 }
+h1{
+  color: rgba(86, 66, 66, 1);
+}
+
 .mobile_mode{
   position: relative;
   display: flex;
@@ -40,7 +45,7 @@ padding: 2rem 0;
 section h2{
   width: 80%;
   margin: 20px;
-  font-size: 25px;
+  font-size: 3rem;
   color: #FAB64B;
   display: flex;
   flex-direction: row;
@@ -99,13 +104,6 @@ section h2{
   margin-bottom: 1rem;
   padding: .5rem;
 }
-/* NAVBAR */
-:root {
-  --background-color: rgba(44, 79, 187, 1);
-  --orange: rgba(250, 182, 75, 1);
-  --white: white;
-  --chocolate: rgba(86, 66, 66, 1);
-}
 
 header{
   display: flex;
@@ -116,7 +114,9 @@ header{
   width: 100%;
   height: 100vh;
 }
-
+/* .mobile_mode h1{
+  font-size: 1rem;
+}
 
 .desk_mode {
   display: none;
@@ -134,13 +134,12 @@ header{
   background-repeat: no-repeat;
   background-size: 100%;
   min-height: 75px;
-
 }
 
 h1.mobile_mode {
   color: var(--chocolate);
   padding: 0;
-  font-family: "Playwrite CU", "Arial", "Helvetica", "sans-serif";
+  font-family: PlaywriteCU, Arial, Helvetica, sans-serif;
 }
 
 img#hamburger {
@@ -236,6 +235,7 @@ nav {
     width: 624px;
     list-style: none;
     background-image: url(../../public/assets/ilustraciones/navbar-tablon-madera.png);
+    align-items: center;
   }
 }
 /* NAVBAR */
@@ -255,5 +255,9 @@ nav {
   .desk_mode h1{
       color: #543017;
       margin: 30px;
+      font-size: 3rem;
   }
+
+  
+  
 }
