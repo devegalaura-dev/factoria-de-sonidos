@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Validación de campos
 
-        let valid = true;
+        let valid = false;
         if (nameInput.value.trim() === "") {
             alert("El campo de nombre es obligatorio.");
             valid = false;
@@ -75,4 +75,4 @@ document.addEventListener('DOMContentLoaded', () => {
             toggleInfoBtn.textContent = 'Más información';
         }
     });
-});
+}); 
