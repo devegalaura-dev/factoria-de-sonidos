@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     form.addEventListener("submit", function (event) {
-        event.preventDefault();   // Prevenir el envíodel formulario 
+        event.preventDefault();   // Prevenir el envío del formulario 
 
 
         // Validación de campos
