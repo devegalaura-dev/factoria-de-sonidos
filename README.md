@@ -16,7 +16,6 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas:
 
 - Node.js (v14.0.0 o superior)
 - npm (v6.0.0 o superior)
-- MongoDB (v4.4.0 o superior)
 
 ## Instalación del repositorio
 Para instalar este proyecto, sigue los siguientes pasos:
@@ -34,9 +33,11 @@ Para instalar este proyecto, sigue los siguientes pasos:
     npm install
     ```
 
-## Piano
-url(![Piano versión desktop](public/assets/img-readme/imagen-piano-readme.png))
-url(![Piano versión mobile](public/assets/img-readme/piano-version-mobile.png))
+## Piano Desktop
+![Piano versión desktop](public/assets/img-readme/imagen-piano-readme.png)
+
+## Piano Mobile
+![Piano versión mobile](public/assets/img-readme/piano-version-mobile.png)
 
 
 ## Tecnologías utilizadas
